@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Netflix Sans','Helvetica Neue','Segoe UI','Roboto','Ubuntu',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    color: #fff;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#000000b3,rgba(0,0,0,0.7)), url(https://assets.nflxext.com/ffe/siteui/vlv3/259422c0-c399-4047-baf2-44bac5612ac1/435b6df3-53e6-4b88-b1be-0f3804e210a1/IN-en-20240819-POP_SIGNUP_TWO_WEEKS-perspective_WEB_f4be2d60-6f77-49e2-aaf7-6327ac5a3a95_large.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 10px 8%;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 25px;
+    
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+nav button{
+    border: none;
+    color: #fff;
+    background-color: #db0001;
+    padding: 6px 15px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.signup:hover{
+    background-color: #ba0101;
+}
+.english{
+    width: 115px;
+    padding-right: 10px;
+    border: solid 1px #777;
+    background-color: rgba(33, 33, 33, 0.704);
+    font-weight: 400;
+}
+.english:focus{
+    outline-offset: 2px;
+    outline: solid 2px #fff;
+}
+.language{
+    width: 23px;
+    padding-right: 6px;
+    display: inline-flex;
+    align-items: center;
+}
+.down-icon{
+    width: 14px;
+    padding-left: 6px;
+}
+.head-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    margin-top: 100px;
+}
+.head-container h1{
+    font-size: 57px;
+    font-weight: 900;
+    line-height: 70px;
+    max-width: 570px;
+    margin-bottom: 19px;
+}
+.head-container h3{
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 23px;
+}
+.head-container p{
+    margin-bottom: 13px;
+    font-weight: 400;
+}
+
+.emailcontainer input{
+    border: solid 0.5px #ffffff55;
+    width: 355px;
+    padding: 17px 10px;
+    background-color: rgba(33, 33, 33, 0.704);
+    border-radius: 5px;
+    margin-right: 4px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    
+}
+::placeholder{
+    color: #adacac;
+    font-weight: 500;
+}
+.email-input:focus{
+    outline-offset: 2px;
+    outline: solid 2px #fff;
+}
+.emailcontainer button{
+    background-color: #db0001;
+    border: none;
+    width: 210px;
+    padding: 10px;
+    border-radius: 4px;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 7px;
+}
+.emailcontainer button img{
+    width: 20px;
+    padding-left: 8px;
+}
+.emailcontainer button:hover{
+    background-color: #ba0101;
+}
+.gradiant{
+    width: 100%;
+    position: absolute;
+    top: 595px;
+}
+.second-body{
+    width: 80%;
+    margin: auto;
+    
+}
+
+.trending-now h3{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 20px 0px;
+}
+.trending-now button{
+    color: #fff;
+    border: solid 1px #5c5c5c;
+    background-color: #4b4b4b55;
+    border-radius: 4px;
+    padding: 10px 14px;
+    cursor: pointer;
+    margin-right: 18px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.trending-now button img{
+    width: 8px;
+    margin-left: 23px;
+}
+.films img{
+    border-radius: 10px;
+    margin: 23px 20px;
+    transition: .15s;
+}
+.films img:hover{
+    transform: scale(1.05);
+
+}
+.reasons{
+    display: flex;
+    flex-wrap: wrap;
+}
+.boxes{
+    margin-right: 15px;
+    width: 288px;
+    height: 288px;
+    border-radius: 15px;
+    background: linear-gradient(149deg, #1d264b 0%, #210e17 96.86%);
+    padding: 8px 15px;
+    
+}
+.boxes p{
+    font-size: 17px;
+    font-weight: 450;
+    color: #ffffffb3;
+}
+
+.questions-body{
+    position: relative;
+    margin: auto;
+    padding-top: 50px;
+    width: 80%;
+}
+.questions-body h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+
+}
+.questions{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 25px;
+    width: 99%;
+    background-color: #343434;
+    padding: 18px ;
+    margin-bottom: 7px;
+}
+.questions .plus-icon{
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.questions:hover{
+    background-color: #4e4e4e;
+    transition: 0.4s;
+}
+
+
+.second-email{
+    position: relative;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.small{
+    margin-top: 60px;
+    margin-bottom: 15px;
+    
+}
+.second-email-container .emailcontainer{
+    position: absolute;
+    left: 200px;
+    
+}
+.second-email .email-input{
+    width: 600px;
+}
+
+
+
+/*---Footer---*/
+
+footer{
+    width: 80%;
+    margin: auto;
+    padding-top: 70px;
+    
+}
+footer h3{
+    margin-bottom: 30px;
+    font-weight: 400;
+    color: #8e8e8e;
+}
+footer h3 a{
+    color: #8e8e8e;
+}
+
+.footer-body{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row{
+    width: 25%;
+}
+
+footer .row ul{
+    list-style: none;
+}
+
+footer .row ul li{
+    margin-bottom: 13px;
+}
+footer .row ul a{
+    font-size: 14px;
+    color: #8e8e8e;
+    font-weight: 500;
+
+}
+.last-button{
+    margin-top: 45px;
+    color: #fff;
+    border-radius: 4px;
+    padding: 6px 12px 6px 0 ;
+    width: 130px;
+    background-color: #1f1f1f8b;
+    font-weight: 500;
+    cursor: pointer;
+}
+.last-button:focus{
+    outline-offset: 2px;
+    outline: solid 2px #fff;
+}
+
+.copyright{
+    color: #8e8e8e;
+    font-size: 14px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
